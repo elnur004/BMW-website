@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(1, 4, 13);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: hsla(229, 71%, 72%, 0.172);
+  border-bottom: 2px solid #435fd0c2;
+}
+
+nav {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsla(358, 100%, 47%, 0.725);
+}
+
+nav > a,
+h1,
+h2,
+p,
+.lists,
+summary,
+footer {
+  color: #e6dbdb;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0 0 10px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+}
+
+.car {
+  width: 80%;
+  height: 20%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.models {
+  display: flex;
+  justify-content: space-between;
+}
+
+.model {
+  max-width: 30%;
+}
+
+.detalis {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin: 30px 0;
+}
